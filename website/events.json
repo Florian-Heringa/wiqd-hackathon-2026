@@ -1,0 +1,47 @@
+[
+    {
+        "title": "MU Hybrid Art House",
+        "start_date": "2026-03-15",
+        "end_date": "2026-03-17",
+        "time": "14:00",
+        "description": "Exhibition exploring quantum art and hybrid realities.",
+        "location": "Eindhoven",
+        "type": "exposition"
+    },
+    {
+        "title": "Science Gallery London",
+        "start_date": "2026-03-20",
+        "end_date": "2026-03-20",
+        "time": "10:00",
+        "description": "Quantum computing workshop and interactive demos.",
+        "location": "London",
+        "type": "event"
+    },
+    {
+        "title": "CosmoCaixa",
+        "start_date": "2026-02-10",
+        "end_date": "2026-02-10",
+        "time": "15:00",
+        "description": "Quantum physics exhibit and public lecture.",
+        "location": "Barcelona",
+        "type": "exposition"
+    },
+    {
+        "title": "Quantum Myths Debunked",
+        "start_date": "2026-01-25",
+        "end_date": "2026-01-25",
+        "time": "13:00",
+        "description": "Separating fact from fiction in quantum technologies.",
+        "location": "Online",
+        "type": "webinar"
+    },
+    {
+        "title": "NEMO Science Museum",
+        "start_date": "2026-04-05",
+        "end_date": "2026-07-05",
+        "time": "16:00",
+        "description": "Panel discussion on the future applications of quantum tech.",
+        "location": "Amsterdam",
+        "type": "panel"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Quantum computers can solve any problem instantly.",
+        "answer": "This is a myth. While quantum computers excel at certain types of problems like factoring large numbers or simulating quantum systems, they are not universally faster for all computations. Many everyday tasks remain better suited for classical computers.",
+        "tags": ["myths", "performance"]
+    },
+    {
+        "question": "Quantum computing will make all encryption obsolete.",
+        "answer": "Not entirely true. Quantum computers threaten some encryption methods like RSA, but quantum-resistant algorithms (post-quantum cryptography) are being developed to secure data against quantum attacks.",
+        "tags": ["myths", "security"]
+    },
+    {
+        "question": "Quantum computers are just faster classical computers.",
+        "answer": "This oversimplifies quantum computing. Quantum computers use quantum bits (qubits) that can exist in multiple states simultaneously, enabling fundamentally different computational approaches that classical computers cannot replicate.",
+        "tags": ["myths", "fundamentals"]
+    },
+    {
+        "question": "Quantum computing is still decades away from practical use.",
+        "answer": "While full-scale quantum computers are not yet widely available, quantum computing is already being used in specialized applications. Companies like IBM, Google, and others offer cloud access to quantum processors for research and development.",
+        "tags": ["myths", "timeline"]
+    },
+    {
+        "question": "Anyone can build a quantum computer at home.",
+        "answer": "Building a functional quantum computer requires extremely precise control over quantum systems, specialized equipment, and expertise in quantum physics. Current quantum computers are built by research institutions and tech companies with significant resources.",
+        "tags": ["myths", "accessibility"]
+    }
+]

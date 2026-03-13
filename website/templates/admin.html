@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Panel - Quantum 4 You{% endblock %}
+
+{% block content %}
+<h2>Admin Panel</h2>
+
+<h3>Add New Question</h3>
+<form method="post" action="/admin/add-question">
+    <label for="question">Question:</label><br>
+    <textarea id="question" name="question" required></textarea><br>
+    <label for="email">Email (optional):</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="name">Name (optional):</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="tags">Tags (optional, comma-separated):</label><br>
+    <input type="text" id="tags" name="tags" placeholder="e.g., applications, cost"><br>
+    <button type="submit">Add Question</button>
+</form>
+
+<h3>Delete All Questions</h3>
+<form method="post" action="/admin/delete-all">
+    <button type="submit" onclick="return confirm('Are you sure you want to delete all questions?')">Delete All Questions</button>
+</form>
+
+<h3>Manage Answers</h3>
+{% for question in questions %}
+<div class="question-block">
+    <h4>{{ question.question }}</h4>
+    {% if question.name %}
+    <p><strong>Submitted by:</strong> {{ question.name }}</p>
+    {% endif %}
+    {% if question.answer %}
+    <p><strong>Answer:</strong> {{ question.answer }}</p>
+    {% else %}
+    <form method="post" action="/admin/add-answer">
+        <input type="hidden" name="question_index" value="{{ loop.index0 }}">
+        <label for="answer_{{ loop.index0 }}">Add Answer:</label><br>
+        <textarea id="answer_{{ loop.index0 }}" name="answer" required></textarea><br>
+        <button type="submit">Add Answer</button>
+    </form>
+    {% endif %}
+</div>
+{% endfor %}
+{% endblock %}

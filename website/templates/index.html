@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Quantum 4 You{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">New Question</h5>
+                <p class="card-text">We invite you to ask any quantum related question.</p>
+                <a href="/new-question" class="btn btn-primary">Go</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Your Questions</h5>
+                <p class="card-text">View your submitted questions.</p>
+                <a href="/account" class="btn btn-primary">Go</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">ArQiv</h5>
+                <p class="card-text">Explore previous questions and answers.</p>
+                <a href="/arqiv" class="btn btn-primary">Go</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Common Myths</h5>
+                <p class="card-text">Great place to start with curated questions we encounter often.</p>
+                <a href="/myths" class="btn btn-primary">Go</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Schedule</h5>
+                <p class="card-text">Upcoming events.</p>
+                <a href="/schedule" class="btn btn-primary">Go</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Contact</h5>
+                <p class="card-text">Get in touch with us!</p>
+                <a href="/contact" class="btn btn-primary">Go</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

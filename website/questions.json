@@ -1,0 +1,67 @@
+[
+    {
+        "question": "Where can I see quantum used?",
+        "name": "Alice",
+        "email": "alice@example.com",
+        "tags": [
+            "applications",
+            "visibility"
+        ],
+        "answer": "Quantum computing is being used in various fields such as cryptography, drug discovery, and optimization problems. You can see examples in research labs and some commercial applications."
+    },
+    {
+        "question": "How much does a quantum computer cost?",
+        "name": "Bob",
+        "tags": [
+            "cost",
+            "hardware"
+        ],
+        "answer": "The cost of quantum computers varies widely. Small-scale quantum processors can cost tens of thousands of dollars, while large-scale systems for research institutions can run into millions."
+    },
+    {
+        "question": "Will this affect jobs?",
+        "tags": [
+            "impact",
+            "society"
+        ]
+    },
+    {
+        "question": "Will this affect healthcare?",
+        "tags": [
+            "healthcare",
+            "impact"
+        ],
+        "answer": "Yes, quantum computing has the potential to revolutionize healthcare through faster drug discovery, personalized medicine, and improved medical imaging techniques."
+    },
+    {
+        "question": "Influence of quantum on the environment?",
+        "tags": [
+            "environment",
+            "impact"
+        ]
+    },
+    {
+        "question": "Who controls quantum computing? Can it be controlled?",
+        "name": "Charlie",
+        "tags": [
+            "control",
+            "ethics"
+        ],
+        "answer": "Quantum computing is developed by various organizations including governments, universities, and private companies. While the technology itself can be controlled through regulations, the knowledge is widely shared in the scientific community."
+    },
+    {
+        "question": "What is the difference between AI and Quantum?",
+        "tags": [
+            "comparison",
+            "AI"
+        ],
+        "answer": "AI (Artificial Intelligence) focuses on creating systems that can perform tasks that typically require human intelligence, while quantum computing is about harnessing quantum mechanics to solve complex computational problems much faster than classical computers."
+    },
+    {
+        "question": "Will quantum tech affect jobs?",
+        "tags": [
+            "impact",
+            "cost"
+        ]
+    }
+]

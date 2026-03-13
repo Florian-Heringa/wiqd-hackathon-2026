@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Schedule - Quantum 4 You{% endblock %}
+
+{% block content %}
+<h2>Schedule</h2>
+<p>Upcoming events, webinars, and talks on quantum technologies.</p>
+
+<h3>Upcoming Events</h3>
+{% if upcoming_events %}
+<ul>
+    {% for event in upcoming_events %}
+    <li>
+        <strong>{{ event.title }}</strong><br>
+        {% if event.start_date == event.end_date %}
+        <em>{{ event.start_date }} at {{ event.time }}</em><br>
+        {% else %}
+        <em>{{ event.start_date }} to {{ event.end_date }}, starting at {{ event.time }}</em><br>
+        {% endif %}
+        <small>Location: {{ event.location }} | Type: {{ event.type }}</small>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No upcoming events at this time.</p>
+{% endif %}
+
+<h3>Previous Events</h3>
+{% if previous_events %}
+<ul>
+    {% for event in previous_events %}
+    <li>
+        <strong>{{ event.title }}</strong><br>
+        {% if event.start_date == event.end_date %}
+        <em>{{ event.start_date }} at {{ event.time }}</em><br>
+        {% else %}
+        <em>{{ event.start_date }} to {{ event.end_date }}, starting at {{ event.time }}</em><br>
+        {% endif %}
+        <small>Location: {{ event.location }} | Type: {{ event.type }}</small>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No previous events.</p>
+{% endif %}
+{% endblock %}

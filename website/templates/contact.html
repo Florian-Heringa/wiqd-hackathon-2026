@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Us - Quantum 4 You{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <h2>Contact Us</h2>
+        <!-- <p>Quantum 4 You is an educational platform dedicated to making <b>quantum technologies accessible to everyone</b>. 
+            We provide resources, answer questions, and host events to lower the barrier for asking questions about quantum technologies. 
+            For anybody who is interested in learning more, regardless of background or experience, we love helping you understand quantum science.
+        </p>
+        <p>
+            We are a community driven initiative providing answers to questions about quantum technologies. Answers are provided by professionals active in the quantum field.
+             We are committed to providing accurate and up-to-date information to help you navigate the fascinating world of quantum science.
+        </p> -->
+        
+        <p>
+            We envision Quantum 4 You as a 2-way communication street between experts and interested learners, regardless of background.
+            In the format of live events connected with a platform that allows anyone to ask questions with a much lower barrier of entry.
+        </p>
+        <p>
+            We are always looking for passionate educators that can help us answer questions. If you are interested in joining our team, please contact us!
+        </p>
+        
+        <h3>Get in Touch</h3>
+        <p>We'd love to hear from you! Reach out with questions, feedback, or collaboration ideas.</p><p>If you know a place where we can host a Q4U event near you, please let us know!</p>
+        
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="your.email@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="Subject">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Your message here..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> contact@quantum4you.com</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Address:</strong><br>
+        Quantum 4 You<br>
+        123 Quantum Street<br>
+        Tech City, TC 12345</p>
+        
+        <h4>Follow Us</h4>
+        <div class="d-flex flex-column gap-2 align-items-start">
+            <a href="#" class="btn btn-outline-dark btn-sm text-start" aria-label="Facebook">
+                <i class="fab fa-facebook-f me-1"></i> Facebook
+            </a>
+            <a href="#" class="btn btn-outline-dark btn-sm text-start" aria-label="TikTok">
+                <i class="fab fa-tiktok me-1"></i> TikTok
+            </a>
+            <a href="#" class="btn btn-outline-dark btn-sm text-start" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in me-1"></i> LinkedIn
+            </a>
+            <a href="#" class="btn btn-outline-dark btn-sm text-start" aria-label="Instagram">
+                <i class="fab fa-instagram me-1"></i> Instagram
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
