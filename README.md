@@ -17,12 +17,16 @@ For fully realising a working final platform the following should be implemented
 
 ### Codespace instructions
 
-A devcontainer definition is included to run the website in a codespace. Create a codespace by clicking the button in the image below:
+A devcontainer definition is included to run the website in a codespace. Create a codespace by clicking the "Create codespace on main" button in the image below:
+
+![](/img/open-codespace.png)
 
 Then wait until the codespace is created and copy the following command into the terminal
 
 ```
-poetry run uvicorn website.main:app --reload
+uvicorn website.main:app --reload
 ```
 
-The website is now accessible by clicking on the url in the terminal.
+The website is now accessible by clicking on the url in the terminal, or by clicking the following icon in the "Ports" tab:
+
+![](img/open-site.png)
