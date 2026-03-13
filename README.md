@@ -14,3 +14,15 @@ For fully realising a working final platform the following should be implemented
 - Cleaning up the UI/UX
 - Better schedule (with calendar).
 - Terms and conditions, privacy policy and other similar things.
+
+### Codespace instructions
+
+A devcontainer definition is included to run the website in a codespace. Create a codespace by clicking the button in the image below:
+
+Then wait until the codespace is created and copy the following command into the terminal
+
+```
+poetry run uvicorn website.main:app --reload
+```
+
+The website is now accessible by clicking on the url in the terminal.
